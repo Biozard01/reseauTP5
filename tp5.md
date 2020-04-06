@@ -273,9 +273,7 @@ admin1>
 
 ### 5. NAT
 
-- Configurer un source NAT sur le routeur (comme au TP4)
-
-* Vérifier que les clients et les admins peuvent joindre Internet
+- Vérifier que les clients et les admins peuvent joindre Internet
 
 ```cisco
 guest1> ping 8.8.8.8
@@ -285,3 +283,5 @@ guest1> ping 8.8.8.8
 ^C
 guest1>
 ```
+
+## III. Topologie 3 - Ajouter des services
