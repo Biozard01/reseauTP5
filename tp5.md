@@ -277,11 +277,19 @@ admin1>
 
 ```cisco
 guest1> ping 8.8.8.8
-*10.5.20.254 icmp_seq=1 ttl=255 time=11.678 ms (ICMP type:3, code:1, Destination host unreachable)
-*10.5.20.254 icmp_seq=2 ttl=255 time=3.188 ms (ICMP type:3, code:1, Destination host unreachable)
-*10.5.20.254 icmp_seq=3 ttl=255 time=4.502 ms (ICMP type:3, code:1, Destination host unreachable)
+84 bytes from 8.8.8.8 icmp_seq=1 ttl=51 time=41.290 ms
+84 bytes from 8.8.8.8 icmp_seq=2 ttl=51 time=35.689 ms
+84 bytes from 8.8.8.8 icmp_seq=3 ttl=51 time=27.778 ms
 ^C
 guest1>
 ```
 
 ## III. Topologie 3 - Ajouter des services
+
+### 3. Serveur DHCP
+
+- Vérifier et prouver qu'un client branché à client-sw3 peut récupérer une IP dynamiquement.
+
+### 4. Serveur Web
+
+### 5. Serveur DNS
